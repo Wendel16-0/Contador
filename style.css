@@ -1,0 +1,41 @@
+body{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-direction: column;
+ height: 100dvh;
+}
+
+.divi {
+text-align: center;
+display: flex;
+}
+
+#mais{
+    height: 30px;
+    width: 30px;
+    background-color: blue;
+    border-radius: 10%;
+    border: 2px solid rgb(0, 0, 0);
+ 
+}
+#btn {
+ display: flex;
+ gap: 5px;
+
+}
+
+#menos{
+    height: 30px;
+    width: 30px;
+    background-color: rgb(255, 0, 0);
+    border-radius: 10%;
+    border: 2px solid rgb(0, 0, 0);
+}
+
+#numero{
+    width: 30px;
+    height: 30px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 10%;
+}
